@@ -1,0 +1,35 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1744578413523-33596836891b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5M3x8fGVufDB8fHx8fA%3D%3D'); /* Replace with your image URL */
+   
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 10px; /* Space between columns */
+}
+
+.left, .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 10px;
+}
+
+.left img, .right img {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px;
+    height:300px
+     ;
+}
+p {
+    border: 2px solid black; /* Creates a solid black border */
+    padding: 10px; /* Adds space between the text and the border */
+    width: 80%; /* Adjusts width of the paragraph */
+    margin: 20px auto; /* Centers the paragraph */
+    text-align: center; /* Aligns text */
+    border-radius: 10px; /* Adds rounded corners */
+}
+
+ 
